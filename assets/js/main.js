@@ -591,7 +591,7 @@
 	
 			// Liste des vidéos
 			var videos = [
-				{ src: 'videos/vid04.mp4' },
+				{ src: 'videos/vid04.mp4', poster: 'images/bg.jpg' },
 				{ src: 'videos/vid04.mp4' },
 				{ src: 'videos/vid04.mp4' }
 			];
