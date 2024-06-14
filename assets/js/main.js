@@ -591,7 +591,7 @@
 
 			// Liste des vidéos
 			var videos = [
-				{ src: 'videos/vid04.mp4', poster: 'images/bg.jpg' },
+				{ src: 'videos/vid04.mp4' },
 				{ src: 'videos/vid05.mp4' },
 			];
 
@@ -601,7 +601,7 @@
 			function loadVideo(index) {
 				if (index < videos.length) {
 					videoPlayer.src = videos[index].src;
-					videoPlayer.poster = videos[index].poster;
+					//videoPlayer.poster = videos[index].poster;
 					videoPlayer.load();
 					videoPlayer.play();
 				}
