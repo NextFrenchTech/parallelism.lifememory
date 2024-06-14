@@ -593,6 +593,7 @@
 			var videos = [
 				{ src: 'videos/vid04.mp4' },
 				{ src: 'videos/vid05.mp4' },
+				//{ src: 'videos/.mp4', poster: 'images/.jpg' },
 			];
 
 			var currentVideoIndex = 0;
