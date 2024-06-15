@@ -604,11 +604,12 @@
 /* autoSwitch */
 
 	// autoSwitch /Mobi|Android/i
+	
 		// L400. Fonction pour détecter si l'utilisateur est sur un appareil mobile
 
 		// Fonction pour passer à la photo suivante
 		function nextPhoto() {
-			if (isMobile() && document.body.classList.contains('modal-active')) {
+			if (isMobile() && document.body.classList.contains('is-poptrox-visible')) {
 				// Simuler un clic sur le bouton "suivant" de Poptrox
 				var nextButton = document.querySelector('.nav-next');
 				if (nextButton) {
