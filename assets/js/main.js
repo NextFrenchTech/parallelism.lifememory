@@ -636,7 +636,9 @@
 
 			// Liste des vidéos
 			var videos = [
-				{ src: 'videos/vid09.mp4' },
+				{ src: 'videos/vid06.mp4' },
+				{ src: 'videos/vid07.mp4' },
+				{ src: 'videos/vid08.mp4' },
 				//{ src: 'videos/.mp4', poster: 'images/.jpg' },
 			];
 
