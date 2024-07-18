@@ -120,7 +120,7 @@
 			popupLoaderText: '',
 			selector: '.item.thumb a.image',
 			caption: function($a) {
-				return $a.prev('h2').html();
+				return $a.prev('h3').html();
 			},
 			usePopupDefaultStyling: false,
 			usePopupCloser: false,

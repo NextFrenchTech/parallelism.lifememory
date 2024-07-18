@@ -423,7 +423,7 @@ input, select, textarea {
 					line-height: 1em;
 				}
 
-				#main .item.intro p {
+				#main .item.intro h2 {
 					font-size: 1.25em;
 					line-height: 1.5em;
 					margin: 0.5em 0 0 0;
@@ -437,7 +437,7 @@ input, select, textarea {
 				cursor: default;
 			}
 
-				#main .item.thumb h2 {
+				#main .item.thumb h3 {
 					position: absolute;
 					bottom: 0;
 					left: 0;
@@ -594,11 +594,11 @@ input, select, textarea {
 							font-size: 2em;
 						}
 
-						#main .item.intro p {
+						#main .item.intro h2 {
 							font-size: 1em;
 						}
 
-					#main .item.thumb h2 {
+					#main .item.thumb h3 {
 						display: none;
 					}
 
