@@ -39,3 +39,39 @@
 			messageBox.className = "message " + type;
 		}
 	})();
+
+
+	// Fonction pour désactiver l'accès à la console
+    document.addEventListener('contextmenu', function(event) {
+		alert('Accès non autorisé');
+		// Désactiver Clic Droit
+        event.preventDefault();
+    });
+
+    document.onkeydown = function(e) {
+        // Désactiver F12
+        if (e.keyCode == 123) {
+            alert('Accès non autorisé');
+            return false;
+        }
+        // Désactiver Ctrl+Shift+I
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            alert('Accès non autorisé');
+            return false;
+        }
+        // Désactiver Ctrl+Shift+J
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            alert('Accès non autorisé');
+            return false;
+        }
+        // Désactiver Ctrl+U
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            alert('Accès non autorisé');
+            return false;
+        }
+        // Désactiver Ctrl+Shift+C (Inspecteur d'éléments)
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            alert('Accès non autorisé');
+            return false;
+        }
+    };
