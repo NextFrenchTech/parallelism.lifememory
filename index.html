@@ -11,8 +11,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link type='text/css' rel="stylesheet" href="assets/css/protect.css" />
 	</head>
 	<body class="is-preload">
+
+<!-- Accès Protégé du site -->
+	<div class="container" id="contenu-password">
+		<form class="form" method="GET">
+			<p class="title">Accès Protégé</p>
+			<input class="password input" id="password" name="answer" type="password" placeholder="Mot de passe" required/>
+			<button class='submitbuttonlabel' type='submit' value='Submit'>Déverouiller</button>
+			<div id="message-box" aria-live="assertive"></div>
+		</form>
+
+	</div>
+
+<!-- Données Protégées du site -->
+	<div id="contenu-protege" class="body" style="margin:auto;">
 
 <!-- Pop Up -->
 	<div id="popup" class="popup">
@@ -162,6 +177,8 @@
 
 			</div>
 
+	<div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -169,6 +186,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type='text/javascript' src="assets/js/protect.js"></script>
 	</body>
 </html>
