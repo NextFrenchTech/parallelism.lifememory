@@ -29,14 +29,9 @@
 				document.getElementById(PASSWORD_FORM_ID).style.display = "none";
 				protectedContent.style.display = "block";
 			} else {
-				showMessage("Accès Refusé !", "error");
+				alert('Accès Refusé !');
 			}
 		});
-	
-		function showMessage(message, type) {
-			messageBox.textContent = message;
-			messageBox.className = "message " + type;
-		}
 	})();
 
 	// Fonction pour désactiver l'accès à la console

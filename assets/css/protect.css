@@ -6,24 +6,25 @@
 
     body, html {
         height: 100%;
+        width: 100%;
         margin: 0;
     }
 
     .container {
+        height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
     }
 
     .form {
-        width: 100%;
         height: 100%;
+        width: 100%;
         background-image: linear-gradient(to bottom, #424242,#212121);
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding-top: 25vh;
     }
 
     .title {
@@ -40,17 +41,6 @@
         color: wheat;
         border: none;
         outline: none;
-    }
-
-    .username {
-        border-bottom: 1px solid wheat;
-        transition: all 400ms;
-    }
-
-    .username:hover {
-        background-color: #424242;
-        border: none;
-        border-radius: 0.5rem;
     }
 
     .password {
@@ -79,17 +69,4 @@
     .submitbuttonlabel:hover {
         background-color: antiquewhite;
         box-shadow: none;
-    }
-
-    .message {
-        margin-top: 10%;
-        font-size: 1em;
-    }
-
-    .message.success {
-        color: green;
-    }
-
-    .message.error {
-        color: red;
     }
