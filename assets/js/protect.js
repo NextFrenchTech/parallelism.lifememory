@@ -26,7 +26,6 @@
 			var passwordInput = this.querySelector('input[name="answer"]').value;
 	
 			if (passwordInput === PASSWORD) {
-				showMessage("Accès Autorisé !", "success");
 				document.getElementById(PASSWORD_FORM_ID).style.display = "none";
 				protectedContent.style.display = "block";
 			} else {
