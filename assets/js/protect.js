@@ -40,7 +40,6 @@
 		}
 	})();
 
-
 	// Fonction pour désactiver l'accès à la console
     document.addEventListener('contextmenu', function(event) {
 		alert('Accès non autorisé');
